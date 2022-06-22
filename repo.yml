@@ -1,0 +1,48 @@
+
+platform: linux
+
+
+
+image_resource:
+
+type: docker-image
+
+source: {repository: busybox}
+
+inputs:
+
+- name: resource-comcastrepo
+
+
+
+run:
+
+path: /bin/sh
+
+args:
+
+- -exc
+
+- |
+
+pwd
+
+ls -ltr
+
+cd resource-dmr
+
+ls -ltr
+
+cd ..
+
+mkdir dmr
+
+ls -ltr
+
+cp resource-dmr/README.md dmr/
+
+cd dmr
+
+ls -ltr
+
+cat *.md
