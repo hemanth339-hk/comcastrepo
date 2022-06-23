@@ -25,24 +25,24 @@ args:
 
 - |
 
-pwd
+  pwd
 
-ls -ltr
+  ls -ltr
 
-cd resource-dmr
+  cd resource-comcastrepo
 
-ls -ltr
+  ls -ltr
 
-cd ..
+  cd ..
 
-mkdir dmr
+  mkdir dmr
 
-ls -ltr
+  ls -ltr
 
-cp resource-dmr/README.md dmr/
+  cp resource-comcastrepo/README.md dmr/
 
-cd dmr
+  cd dmr
 
-ls -ltr
+  ls -ltr
 
-cat *.md
+  cat *.md
